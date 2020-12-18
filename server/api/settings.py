@@ -35,6 +35,9 @@ INSTALLED_APPS = [
     'accounts',
     'articles',
 
+    #
+    'rest_framework',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -123,5 +126,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# custon user
+# custom user
 AUTH_USER_MODEL= 'accounts.User'
